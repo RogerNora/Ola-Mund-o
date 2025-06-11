@@ -10,3 +10,15 @@ body{
 section{
     margin: 10%;
 }
+
+h2 {
+    color:cyan
+}
+
+.texto-inglês {
+    font-style: italic;
+}
+
+#nome-usuario{
+    font-weight: bolder;
+}
