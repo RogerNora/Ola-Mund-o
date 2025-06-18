@@ -29,9 +29,8 @@ h2 {
 }
 
 img{
-    margin-left: 15%;
+    align-items: center;
     size: 60%;
-    margin-right: 25%;
 }
 
 @media screen and (max-width:420px) {
