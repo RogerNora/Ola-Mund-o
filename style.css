@@ -34,7 +34,7 @@ img{
     margin-right: 25%;
 }
 
-@media screen and (max-width) {
+@media screen and (max-width:420px) {
     img{
         width:100%;
     }
