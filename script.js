@@ -5,3 +5,14 @@ function inserirNome(){
 }
 
 inserirNome();
+
+let linguagens = ["java", "python", "cobol", "assemble"];
+
+//console.log(linguagens[1]);
+
+
+let muda = document.querySelector("#lista");
+ muda.textContent = linguagens[1];
+
+
+
