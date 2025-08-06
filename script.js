@@ -7,15 +7,17 @@ function inserirNome(){
 inserirNome();
 
 
-let lin = prompt("escolha um numero de 0 a 3?");
+//let lin = prompt("escolha um numero de 0 a 3?");
 
 
 let linguagens = ["java", "python", "cobol", "assemble"];
 console.log(linguagens);
 
 let muda = document.querySelector("#lista");
- muda.textContent = linguagens[0] + " - " + linguagens[1] + " - " + linguagens[2]+ " - " + linguagens[3];
-
+// muda.textContent = linguagens[0] + " - " + linguagens[1] + " - " + linguagens[2]+ " - " + linguagens[3];
+for (const linguagem of linguagens){
+    muda.innerHTML += '<li>${linguagem}</li>' 
+}
 
 let aluno1 = {
     nome: "Roger",
