@@ -33,6 +33,10 @@ img{
     size: 60%;
 }
 
+ul {
+    text-align: left;
+
+}
 @media screen and (max-width:420px) {
     img{
         width:100%;
