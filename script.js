@@ -16,7 +16,7 @@ console.log(linguagens);
 let muda = document.querySelector("#lista");
 // muda.textContent = linguagens[0] + " - " + linguagens[1] + " - " + linguagens[2]+ " - " + linguagens[3];
 for (const linguagem of linguagens){
-    muda.innerHTML += '<li>${linguagem}</li>' 
+    muda.innerHTML += `<li>${linguagem}</li>` 
 }
 
 let aluno1 = {
